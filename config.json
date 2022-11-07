@@ -1,0 +1,8 @@
+{
+  "deepSleepIntervalInMs": 1200000,
+  "apSsid": "BrewTool",
+  "wifi": {
+    "ssid": "",
+    "pass": ""
+  }
+}
