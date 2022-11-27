@@ -34,7 +34,6 @@ class NetworkHandler():
             pass
 
 if __name__ == '__main__':
-    network_handler = NetworkHandler("brewtool","config.json")
+    network_handler = NetworkHandler("brewtool")
     network_handler.connect_wifi()
-    import uftpd
     

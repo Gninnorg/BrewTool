@@ -1,3 +1,14 @@
+# Connect wifi and start ftp server for development purposes
+print("------------------------------------")
+print("Connect to wifi and setup ftp server")
+from wlan import NetworkHandler
+wireless = NetworkHandler("brewtool")
+wireless.connect_wifi()
+import uftpd
+print("------------------------------------")
+print("")
+# Code starts here
+
 import machine, onewire, ds18x20, time
 
 ds_pin = machine.Pin(16)
